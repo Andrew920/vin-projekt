@@ -39,6 +39,7 @@ Vse datoteke za projekt se nahajajo na [GitHub](https://github.com).
 
 ### Senzor za svetlobo
 <img src="https://i0.wp.com/www.elithecomputerguy.com/wp-content/uploads/2019/07/IMG_3382.jpg?resize=1024%2C768&ssl=1" alt="Senzor za svetlobo" width="500"/>
+(Potrebno je namestiti knjižnice za ustrezno delovanje)
 
  * Povežemo ga tako kot prikazuje zgornja slika
  * Rdeča žica oziroma VCC mora biti priklopljena na 5v
