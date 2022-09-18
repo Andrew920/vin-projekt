@@ -30,6 +30,7 @@ Vse datoteke za projekt se nahajajo na [GitHub](https://github.com).
 
 ### Senzor DHT11 za temperaturo in vlago
 <img src="https://diyusthad.com/wp-content/uploads/2020/10/DHT11.png" alt="DHT11" width="500"/>
+(Potrebno je namestiti knjižnice za pravilno delovanje)
 
  * VCC priklopimo na 3.3v
  * GND priklopimo na ozemljitev
