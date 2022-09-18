@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Room Monitor</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="#" rel="stylesheet">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'styles.css' %}">
+    </head>
+
+    <body class="snippet-body">
+        <div class="container">
+            <div class="card">
+                <div class="row">
+                    <div class="col-9 left">
+                        <div class="row top">
+                            <div class="col">📍 Pisarna</div>
+                            <div class="col">📅 {{ datum }}</div>
+                            <div class="col">💡 Svetlost: {{ svetlost }}</div>
+                        </div>
+                        <div class="row">
+                        <div class="col-7 temp">{{ temperatura }}°</div>
+                        <div class="col-5 time">
+                            <p>{{ ura }}</p>
+                            <h2><b>{{ dan }}</b></h2>
+                            <p>VLAGA: {{ vlaga }}%</p>
+                        </div>
+                        </div>
+                        <div class="row bottom">
+                        <div class="col"><hr></div>
+                        <div class="col">
+                            <div class="row">Max</div>
+                            <div class="row"><b>{{ max_temp }}°</b></div>
+                        </div>
+                        <div class="col">
+                            <div class="row">Min</div>
+                            <div class="row"><b>{{ min_temp }}°</b></div>
+                        </div>
+                        <div class="col">
+                            <div class="row">Avg</div>
+                            <div class="row"><b>{{ avg_temp }}°</b></div>
+                        </div>
+                        <div class="col">
+                            <div class="row">&nbsp;</div>
+                            <div class="row"><b>&nbsp;</b></div>
+                        </div>
+                        <div class="col">
+                            <div class="row">Max</div>
+                            <div class="row"><b>{{ max_hum }}%</b></div>
+                        </div>
+                        <div class="col">
+                            <div class="row">Min</div>
+                            <div class="row"><b>{{ min_hum }}%</b></div>
+                        </div>
+                        <div class="col">
+                            <div class="row">Avg</div>
+                            <div class="row"><b>{{ avg_hum }}%</b></div>
+                        </div>
+                        <div class="col"><hr></div>
+                        </div>
+                        </div>
+                        <div class="col-3 right">
+                        <div class="row top">🕑 Zadnjih 6 ur</div>
+                        <div class="timely">
+                            {% for cas, temp in podatki %}
+                            <div class="row">{{ cas }}:00 &nbsp; <b>{{ temp }}°</b></div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+            <script type="text/javascript" src="#"></script>
+            <script type="text/javascript" src="#"></script>
+            <script type="text/javascript" src="#"></script>
+            <script type="text/javascript">var myLink = document.querySelector('a[href="#"]');
+            myLink.addEventListener('click', function(e) {
+                e.preventDefault();
+            });</script>
+            
+    </body>
+</html>
