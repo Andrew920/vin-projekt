@@ -5,10 +5,10 @@ Vse datoteke za projekt se nahajajo na [GitHub](https://github.com).
 ### Na arduinotu lahko spremnljamo temperaturo in vlago na ekranu, posodablja se na 10 sekund. Lahko pa tudi preko spletne aplikacije spremljamo te parametre. Na spletni aplikaciji so tudi drugi parametri, naprimer svetlost, največja, najmanjša in povprečna temperatura in vlaga ter zgodovina temperature za zadnjih 6 ur. 
 
 # Spletna Aplikacija
-![Slika spletne aplikacije](app.png)
+![Slika spletne aplikacije](https://user-images.githubusercontent.com/47641054/190927709-74fd9b9b-a54a-471b-a33d-cc2148844b94.png)
 
 # Arduino
-![Slika arduinota](arduino.jpg)
+![Slika arduinota](https://user-images.githubusercontent.com/47641054/190927712-82d03d72-a265-4241-8b61-bc3ee0d0786c.jpg)
 
 # How To:
 
