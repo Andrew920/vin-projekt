@@ -1,6 +1,6 @@
 # PROJEKT VIN: HOME MONITORING SYSTEM
 
-Vse datoteke za projekt se nahajajo na [GitHub](https://github.com).
+Vse datoteke za projekt se nahajajo na [GitHub](https://github.com/Andrew920/vin-projekt).
 
 ### Na arduinotu lahko spremnljamo temperaturo in vlago na ekranu, posodablja se na 10 sekund. Lahko pa tudi preko spletne aplikacije spremljamo te parametre. Na spletni aplikaciji so tudi drugi parametri, naprimer svetlost, največja, najmanjša in povprečna temperatura in vlaga ter zgodovina temperature za zadnjih 6 ur. 
 
@@ -65,7 +65,7 @@ Vse datoteke za projekt se nahajajo na [GitHub](https://github.com).
 
 ### Programiranje Arduino
 
-Koda za arduino je navoljo na github
+[Koda za arduino je navoljo na github](https://github.com/Andrew920/vin-projekt/blob/main/arduino.ino)
 
 Razlaga programa:
 
@@ -135,6 +135,8 @@ void loop() {
 
 ### Programiranje sprejemnika
 
+[Koda za sprejemnik je navoljo na github](https://github.com/Andrew920/vin-projekt/blob/main/serverMonitor/get_data.py)
+
 Sprejemnik dobi podatke iz serijskega vmesnika in jih zapiše v sql bazo. Baza teče na lokalnem strežniku.
 
 Razlaga kode:
@@ -174,7 +176,9 @@ Razlaga kode:
     ```
 
 ### Programiranje strežnika
-Vsa koda za strežnik je na GitHub.
+
+[Koda za sprejemnik je navoljo na github](https://github.com/Andrew920/vin-projekt/tree/main/serverMonitor)
+
 [Vir za izgled](https://bbbootstrap.com/snippets/full-screen/bootstrap-weather-report-different-day-and-time-temperature-86813775)   
 Strežnik servira spletno stran. Podatke pridobi iz sql strežnika.   
    
