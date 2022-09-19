@@ -176,7 +176,7 @@ Razlaga kode:
 
 ### Programiranje strežnika
 
-[Koda za sprejemnik je navoljo na github](https://github.com/Andrew920/vin-projekt/tree/main/serverMonitor)
+[Koda za strežnik je navoljo na github](https://github.com/Andrew920/vin-projekt/tree/main/serverMonitor)
 
 [Vir za izgled](https://bbbootstrap.com/snippets/full-screen/bootstrap-weather-report-different-day-and-time-temperature-86813775)   
 Strežnik servira spletno stran. Podatke pridobi iz sql strežnika.   
